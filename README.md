@@ -39,3 +39,7 @@ spring.h2.console.path=/h2-console
 Swagger интегрирован в проект для автоматической генерации и визуализации API-документации. Чтобы получить доступ к интерфейсу Swagger, перейдите по следующему URL после запуска приложения:
 
 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+### Подключение REDIS
+Для корректной работы программы, должен быть установлен Redis:
+[установка Redis](https://redis.io/docs/getting-started/installation/)
